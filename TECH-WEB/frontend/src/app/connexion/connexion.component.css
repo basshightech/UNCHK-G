@@ -1,0 +1,24 @@
+.form-card {
+    width: 400px;
+    height: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f0f3f0;  /* Vert clair */
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  .form-actions {
+    margin-top: 50px;
+  }
+  
+  .input{
+    border-radius: 10px;
+    background-color: transparent;
+  }
+
+  button{
+    color: green;
+  }
