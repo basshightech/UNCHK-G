@@ -1,0 +1,33 @@
+<mat-toolbar color="primary">
+    <span><img src="logo-unchk.png" alt="Logo" height="30"> Université Numérique Cheikh Hamidou KANE</span>
+    <span class="spacer"></span>
+    <button style="background-color: green; color: white;" mat-button class="green-button" routerLink="/login">Se connecter</button>
+  </mat-toolbar>
+  
+  <div class="home-container">
+    <h1>Bienvenue sur la plateforme de gestion l'<span style="color: blue;">UN</span><span style="color: orange">C</span><span style="color: green;">HK</span></h1>
+    <p>Sélectionnez votre profil pour continuer :</p>
+  
+    <div class="card-container">
+      <mat-card class="profile-card" routerLink="/etudiant">
+        <mat-card-title>🎓 Étudiant</mat-card-title>
+      </mat-card>
+  
+      <mat-card class="profile-card" routerLink="/formateur">
+        <mat-card-title>👨‍🏫 Formateur</mat-card-title>
+      </mat-card>
+  
+      <mat-card class="profile-card" routerLink="/administration">
+        <mat-card-title>🏛️ Administration</mat-card-title>
+      </mat-card>
+  
+      <mat-card class="profile-card" routerLink="/insertion">
+        <mat-card-title>📊 Appui à l'Insertion</mat-card-title>
+      </mat-card>
+    </div>
+  </div>
+  
+  <footer class="footer">
+    <p>&copy; 2025 Université Numérique Cheikh Hamidou KANE - Tous droits réservés BASSIROU </p>
+  </footer>
+  

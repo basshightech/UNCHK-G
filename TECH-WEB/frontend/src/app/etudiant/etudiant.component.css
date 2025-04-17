@@ -1,0 +1,22 @@
+.etudiant-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+  }
+  
+  mat-card {
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    margin-top: 20px;
+  }
+  
+  button {
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,29 @@
+<mat-toolbar color="primary">
+    Profil Étudiant
+  </mat-toolbar>
+  
+  <div class="etudiant-container">
+    <mat-card>
+      <h2>{{ etudiant.prenom }} {{ etudiant.nom }}</h2>
+      <p><strong>ID Étudiant :</strong> {{ etudiant.id }}</p>
+      <p><strong>INE :</strong> {{ etudiant.ine }}</p>
+      <p><strong>Date de naissance :</strong> {{ etudiant.dateNaissance }}</p>
+      <p><strong>Formation :</strong> {{ etudiant.formation }}</p>
+      <p><strong>Promotion :</strong> {{ etudiant.promo }}</p>
+      <p><strong>Année de début :</strong> {{ etudiant.anneeDebut }}</p>
+      <p><strong>Année de sortie :</strong> {{ etudiant.anneeSortie }}</p>
+  
+      <h3>Diplômes</h3>
+      <ul>
+        <li *ngFor="let diplome of etudiant.diplomes">{{ diplome }}</li>
+      </ul>
+  
+      <h3>Autres Formations</h3>
+      <ul>
+        <li *ngFor="let formation of etudiant.autresFormations">{{ formation }}</li>
+      </ul>
+  
+      <button mat-raised-button color="primary" routerLink="/home"><a href="" routerLink="/home" style="text-decoration: none;">Retour à l'accueil</a></button>
+    </mat-card>
+  </div>
+  
